@@ -1,0 +1,162 @@
+body{
+  background: #E4E8E9 url('Images/background_2.jpeg') repeat left top;
+	color: #39444A;
+	line-height: 150%;
+	font-family:'Six Caps', sans-serif;
+}
+
+.container {
+	width: 1200px;
+	margin: auto;
+}
+
+::selection{
+	background:#FC0
+}
+
+nav{
+	float: right;
+	margin-bottom: 50px;
+	margin-right:100px;
+}
+
+nav ul{
+	margin-top: 0px;
+}
+nav ul li{
+	float:left;
+	list-style: none;
+	padding: 2em;
+	display: block;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	letter-spacing: 0.04em;
+}
+.sep{
+	float: right;
+	height: 6px;
+	width: 82%;
+	background: url('Images/back_border.png')  top repeat-x;
+	margin-right: -4%;
+}
+.sepTop {
+	float: right;
+	height: 6px;
+	width: 100%;
+	background: url('Images/back_border.png') top repeat-x;
+}
+h1{
+	font-family:'Six Caps', sans-serif;
+	text-shadow:2px 1px 3px #FCF9F3, 3px 4px 6px #39444A;
+	font-size: 8.5em;
+	text-transform: uppercase;
+	letter-spacing: 0.18em;
+	clear:both;
+	font-weight: normal;
+	text-align: center;
+	margin-left: 1em;
+}
+
+p {
+	font: normal 127%/1.6 "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2",Georgia,"Times New Roman",serif;
+	margin-left: 13em;
+	font-size: 137.5%;
+	width: 836px;
+
+}
+
+.logo {
+	background: #FC0;
+	font-family: 'Six Caps', sans-serif;
+	border-radius: 50%;
+	font-size: 2.5em;
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	text-align: center;
+	float:left;
+	text-decoration: none;
+	margin-top: 49px;
+}
+
+.logo a{
+	text-decoration: none;
+	color: #39444A;
+}
+
+.logo a:hover{
+	color: #FCFDFD;
+	cursor: pointer;
+	font-size: 1.2em;
+	text-decoration: none;
+
+}
+
+li a {
+	text-decoration: none;
+	color: #39444A;
+}
+
+li.logos {
+	list-style: none;
+	float: left;
+	margin-right: 90px;
+	margin-bottom: 70px;
+}
+
+.section#about li.about a, .section#blog li.blog a, .section#portfolio li.portfolio a, .section#contact li.contact a{
+	text-decoration: none;
+	color: #FC0;
+	background: #39444A;
+	padding-left: 6%;
+	padding-right: 6%;
+	border-radius: 10%;
+	box-shadow: 1px 1px 1px 1px #FCFDFD;
+}
+.about a:hover, .blog a:hover, .portfolio a:hover, .contact a:hover {
+	color:#FC0;
+}
+.pic{
+	margin-left: 0px;
+}
+
+footer p {
+	clear:both;
+	text-align: center;
+	margin-left: 161px;
+	color: rgba(57, 68, 74, 0.28);
+}
+
+#blog-posts p {
+	background-image: url(Images/hatch.png);
+}
+
+#blog-posts ul li {
+	text-decoration: none;
+	list-style: none;
+	float: left;
+	margin-right: -180px;
+	margin-left: 209px;
+}
+
+#projects ul li a img {
+	border: 8px solid white;
+	margin-bottom: 20px;
+}
+
+#projects ul li a {
+	margin-left: 0px;
+}
+
+blockquote p {
+	font-family: 'Alex Brush', cursive;
+	font-size: 30px;
+	font-weight: lighter;
+	color: rgba(57, 68, 74, 0.75);
+	border-left: 3px solid #FCFDFD;
+	padding-left: 1.6447368421%;
+	width: 836px;
+	margin-left: 8em;
+}
+
+
